@@ -32,3 +32,4 @@ struct Ciphertext { int16_t u[K][N]; int16_t v[N]; };
 #define OLED_ADDR 0x3C
 #define SDA_PIN   4
 #define SCL_PIN   15
+#define OLED_RST  16  
